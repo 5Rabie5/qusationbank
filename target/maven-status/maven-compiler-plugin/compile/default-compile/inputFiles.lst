@@ -1,0 +1,7 @@
+/home/rabie/2021 projects/qusationbank/src/main/java/na7/questionsbank/configuration/CorsConfiguration.java
+/home/rabie/2021 projects/qusationbank/src/main/java/na7/questionsbank/communication/QuestionEndpoint.java
+/home/rabie/2021 projects/qusationbank/src/main/java/na7/questionsbank/configuration/RestTemplateConfiguration.java
+/home/rabie/2021 projects/qusationbank/src/main/java/na7/questionsbank/logic/QuestionManger.java
+/home/rabie/2021 projects/qusationbank/src/main/java/na7/questionsbank/QuestionsbankApplication.java
+/home/rabie/2021 projects/qusationbank/src/main/java/na7/questionsbank/persistence/domain/Question.java
+/home/rabie/2021 projects/qusationbank/src/main/java/na7/questionsbank/persistence/repository/QuestionRepository.java

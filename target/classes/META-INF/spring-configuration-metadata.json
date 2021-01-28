@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "info",
+      "type": "na7.questionsbank.logic.QuestionManger",
+      "sourceType": "na7.questionsbank.logic.QuestionManger"
+    }
+  ],
+  "properties": [
+    {
+      "name": "info.questions",
+      "type": "java.util.List<na7.questionsbank.persistence.domain.Question>",
+      "sourceType": "na7.questionsbank.logic.QuestionManger"
+    }
+  ],
+  "hints": []
+}

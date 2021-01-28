@@ -1,0 +1,9 @@
+na7/questionsbank/persistence/repository/QuestionRepository.class
+na7/questionsbank/persistence/domain/Question.class
+na7/questionsbank/logic/QuestionManger.class
+META-INF/spring-configuration-metadata.json
+na7/questionsbank/QuestionsbankApplication.class
+na7/questionsbank/communication/QuestionEndpoint.class
+na7/questionsbank/persistence/domain/Question$QuestionBuilder.class
+na7/questionsbank/configuration/CorsConfiguration.class
+na7/questionsbank/configuration/RestTemplateConfiguration.class
