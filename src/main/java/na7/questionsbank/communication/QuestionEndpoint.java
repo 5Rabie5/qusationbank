@@ -15,8 +15,8 @@ public class QuestionEndpoint {
 private final QuestionManger questionManger;
 
     @GetMapping
-    List<Question> getQuestions(){
-        return  questionManger.getQuestions();
+    Question getQuestion(){
+        return  questionManger.getQuestion();
            }
 
     @PostMapping

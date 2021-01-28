@@ -8,8 +8,13 @@
   ],
   "properties": [
     {
-      "name": "info.questions",
+      "name": "info.questions-list",
       "type": "java.util.List<na7.questionsbank.persistence.domain.Question>",
+      "sourceType": "na7.questionsbank.logic.QuestionManger"
+    },
+    {
+      "name": "info.rand",
+      "type": "java.util.Random",
       "sourceType": "na7.questionsbank.logic.QuestionManger"
     }
   ],
