@@ -18,6 +18,15 @@ private final QuestionManger questionManger;
     Question getQuestion(){
         return  questionManger.getQuestion();
            }
+    @GetMapping("/{type}")
+    Question getQuestion(@PathVariable String type){
+        return  questionManger.getQuestion(type);
+    }
+
+    @GetMapping("/{type}/{level}")
+    Question getQuestion(@PathVariable String type,@PathVariable Integer level){
+        return  questionManger.getQuestion(type,level);
+    }
 
     @PostMapping
     Question post(@RequestBody Question question) {
