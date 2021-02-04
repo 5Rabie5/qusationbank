@@ -55,4 +55,12 @@ public class QuestionManger {
         questionsList = questionRepository.findAll();
         return randQuestion(questionsList);
     }
+
+    public void saveAll(Question[] questions) {
+//        deleteAll();
+        List.of(questions).forEach(e ->questionRepository.save(e));
+    }
+    public void deleteAll() {
+        questionRepository.deleteAll();
+    }
 }

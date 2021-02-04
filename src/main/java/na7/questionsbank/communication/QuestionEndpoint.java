@@ -5,6 +5,7 @@ import na7.questionsbank.logic.QuestionManger;
 import na7.questionsbank.persistence.domain.Question;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -29,9 +30,8 @@ private final QuestionManger questionManger;
     }
 
     @PostMapping
-    Question post(@RequestBody Question question) {
-      questionManger.save(question);
-        return question;
-    }
+    void post(@RequestBody Question[] questions) {
+      questionManger.saveAll(questions);
+          }
 
 }

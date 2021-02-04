@@ -14,12 +14,17 @@ import java.util.List;
 public class Question {
 
     private String id;
-    private int index;
+    private String index;
     private String question;
-    private List<String> possibility;
+    private String possibility1;
+    private String possibility2;
+    private String possibility3;
+    private String possibility4;
     private String correctAnswer;
     private String style;
     private String type;
-    private int level;
+    private String level;
     private String resourceInfo;
+    private String parameter1;
+    private String parameter2;
 }
